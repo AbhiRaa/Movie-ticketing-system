@@ -26,19 +26,6 @@ ticket cost. For example, if the total ticket cost is 50$, then the discount fee
 8. For all customers, for all ticket types, the booking fee is 2 x the ticket quantity. For example,
 if the quantity ordered by the customer is 2, then the booking fee is 2 x 2 = 4$.
 9. The total cost will be displayed as a formatted message to the user, e.g.,
-
-------------------------------------------------------------------------------
-Receipt of <customer_name>
-------------------------------------------------------------------------------
-Movie: <movie_name>
-Ticket type: <ticket_type>
-Ticket unit price: <ticket_unit_price>
-Ticket quantity: <ticket_quantity>
-------------------------------------------------------------------------------
-Discount: <discount_fee>
-Booking fee: <booking_fee>
-Total cost: <total_cost>
-
 10. In the program, you should have some lists (or dictionaries or other data types) to store the
 names of all customers, the names of the customers that are in the rewards program, the
 available movies, the available ticket types, the prices of those ticket types. You can assume
@@ -123,23 +110,6 @@ handle invalid inputs. Specifically, if the lists contain any invalid ticket typ
 then your program will display a message saying the corresponding list is not valid, and the
 user will be given another chance (re-enter the lists), until all valid ticket types and ticket
 quantities are entered. The formatted message for the receipt is as follows.
-
-------------------------------------------------------------------------------
-Receipt of <customer_name>
-------------------------------------------------------------------------------
-Movie: <movie_name>
-Ticket type: <ticket_type>
-Ticket unit price: <ticket_unit_price>
-Ticket quantity: <ticket_quantity>
-...............
-Ticket type: <ticket_type>
-Ticket unit price: <ticket_unit_price>
-Ticket quantity: <ticket_quantity>
-------------------------------------------------------------------------------
-Discount: <discount_fee>
-Booking fee: <booking_fee>
-Total cost: <total_cost>
-
 2. The menu also has an option "Display the most popular movie" to display the movie with the
 maximum money (total cost) purchased by users to date and the amount of money it was
 purchased. If there are multiple movies with the same maximum money purchased, you can
@@ -150,6 +120,9 @@ for each ticket type they purchased and the total cost (including all the fees).
 is as follows.
 
 adult child senior student concession Revenue
+
 Titanic 12 3 8 10 4 720.5
+
 Avatar 15 7 5 14 6 924.6
+
 StarWar 14 8 6 11 5 860.8
