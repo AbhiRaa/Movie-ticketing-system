@@ -1,6 +1,8 @@
 # Movie-ticketing-system
 Functionalities Requirements:
+
 ------------------------------------------------ PART 1 ------------------------------------------------
+
 In this part, your program can perform some simple interactions with users (i.e., the box office cashiers
 or the managers):
 1. Display a message asking the user to enter the customer’s name.
@@ -24,6 +26,7 @@ ticket cost. For example, if the total ticket cost is 50$, then the discount fee
 8. For all customers, for all ticket types, the booking fee is 2 x the ticket quantity. For example,
 if the quantity ordered by the customer is 2, then the booking fee is 2 x 2 = 4$.
 9. The total cost will be displayed as a formatted message to the user, e.g.,
+
 ------------------------------------------------------------------------------
 Receipt of <customer_name>
 ------------------------------------------------------------------------------
@@ -35,6 +38,7 @@ Ticket quantity: <ticket_quantity>
 Discount: <discount_fee>
 Booking fee: <booking_fee>
 Total cost: <total_cost>
+
 10. In the program, you should have some lists (or dictionaries or other data types) to store the
 names of all customers, the names of the customers that are in the rewards program, the
 available movies, the available ticket types, the prices of those ticket types. You can assume
@@ -53,7 +57,9 @@ needs to be initialized with the following movies: Avatar, Titanic, and StarWar.
 the customer in the rewards program list, etc. But you can use other data types to store this
 information such as dictionaries and other data types. Make sure you think and analyse the
 requirements in detail so that you can choose the most appropriate/suitable data types.
+
 ------------------------------------------------ PART 2 ------------------------------------------------
+
 In this part, your program can: 
 (a) perform some additional requirements compared to PART 1, and
 (b) be operated using a menu.
@@ -98,7 +104,9 @@ information required.
 5. Exit the program: this option allows users to exit the program.
 Note that in your program, when a task (option) is accomplished, the menu will appear again for the
 next task.
+
 ------------------------------------------------ PART 3 ------------------------------------------------
+
 In this part, your menu program is equipped with some advanced features. Note, some features maybe
 very challenging.
 1. In this part, in the "Purchase a ticket" option, your program will allow customers to purchase
@@ -115,6 +123,7 @@ handle invalid inputs. Specifically, if the lists contain any invalid ticket typ
 then your program will display a message saying the corresponding list is not valid, and the
 user will be given another chance (re-enter the lists), until all valid ticket types and ticket
 quantities are entered. The formatted message for the receipt is as follows.
+
 ------------------------------------------------------------------------------
 Receipt of <customer_name>
 ------------------------------------------------------------------------------
@@ -130,6 +139,7 @@ Ticket quantity: <ticket_quantity>
 Discount: <discount_fee>
 Booking fee: <booking_fee>
 Total cost: <total_cost>
+
 2. The menu also has an option "Display the most popular movie" to display the movie with the
 maximum money (total cost) purchased by users to date and the amount of money it was
 purchased. If there are multiple movies with the same maximum money purchased, you can
@@ -138,6 +148,7 @@ display only one movie or all movies, it's your choice.
 displaying all the previous purchases of all movies, including the ticket types and the quantity
 for each ticket type they purchased and the total cost (including all the fees). An example table
 is as follows.
+
 adult child senior student concession Revenue
 Titanic 12 3 8 10 4 720.5
 Avatar 15 7 5 14 6 924.6
